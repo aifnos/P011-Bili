@@ -1,0 +1,20 @@
+{
+  "scope": "READ_EXISTING_USER_FAILURE_ONLY",
+  "source_zip_sha256": "bf89661b19731ac9e36b102c37d8e9f3c102eb77c919321c184bf2de89a2b8e7",
+  "wire_uncompressed_bytes": {
+    "tx": 0,
+    "rx": 0
+  },
+  "open_attempts": 1,
+  "mode_attempts": 0,
+  "sync_attempts": 0,
+  "write_started": false,
+  "error": "OSError: [WinError 433] 指定不存在的设备。",
+  "exact_failed_api_known": false,
+  "test_execution": {
+    "tool_chunk": "3b87b1",
+    "exit_code": 0,
+    "tests": 48,
+    "scope": "HOST_MOCKED"
+  }
+}

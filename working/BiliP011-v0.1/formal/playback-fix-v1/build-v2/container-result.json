@@ -1,0 +1,59 @@
+{
+  "artifacts": {
+    "bin/bili-player": {
+      "sha256": "2c061658a14e259ac507b0207d4286255dcb65379b79c6e989e530fa5e38fe6f",
+      "bytes": 888956,
+      "elf_class": "ELF32",
+      "elf_machine": "ARM",
+      "byte_order": "little",
+      "glibc": [
+        "2.17",
+        "2.27",
+        "2.4",
+        "2.9"
+      ],
+      "needed": [
+        "libwayland-client.so.0",
+        "libSDL2-2.0.so.0",
+        "libGLESv2.so.2",
+        "libmali.so.0",
+        "libmpv.so.2",
+        "libfreetype.so.6",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libpthread.so.0",
+        "libc.so.6"
+      ]
+    },
+    "bin/bili-hw": {
+      "sha256": "09f8b45386946ad97e086aa7615ae84eda5167ae4fe149200c964356e23cb288",
+      "bytes": 489296,
+      "elf_class": "ELF32",
+      "elf_machine": "ARM",
+      "byte_order": "little",
+      "glibc": [
+        "2.4"
+      ],
+      "needed": [
+        "libgstvideo-1.0.so.0",
+        "libgstapp-1.0.so.0",
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libdl.so.2",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libpthread.so.0",
+        "libc.so.6"
+      ]
+    }
+  },
+  "toolchain": {
+    "version": "arm-buildroot-linux-gnueabihf-g++.br_real (Buildroot 2018.08-git-00807-g0184fa3) 8.2.0\nCopyright (C) 2018 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "binary_sha256": "6116428be910662626469a9d177067e35a71df5febe311b804582b45f5bdb318",
+    "triple": "arm-buildroot-linux-gnueabihf"
+  }
+}

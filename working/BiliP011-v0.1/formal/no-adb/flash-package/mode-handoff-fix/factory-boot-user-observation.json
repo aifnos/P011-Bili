@@ -1,0 +1,7 @@
+{
+  "source": "USER_MESSAGE_AFTER_COLD_READ_V6_2",
+  "user_text": "已正常进入原厂主界面",
+  "factory_home_observed": true,
+  "system_write_performed": false,
+  "does_not_validate_modified_system": true
+}

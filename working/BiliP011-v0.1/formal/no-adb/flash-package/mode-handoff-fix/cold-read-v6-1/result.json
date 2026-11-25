@@ -1,0 +1,23 @@
+{
+  "status": "NOT_COMPLETE",
+  "scope": "BUILTIN_AUTOD_THEN_GPT_UBOOT_READ_ONLY",
+  "system_write_tested": false,
+  "physical_acceptance": false,
+  "source_sha256": "40e487ab39388bf671237312b55c4d0598416f6823e6ced6f997386fae2c0b82",
+  "error": "RuntimeError: 请先正常关机并拔下 USB，再重新打开本程序。",
+  "transport": {
+    "mode_attempts": 0,
+    "sync_attempts": 0,
+    "open_attempts": 0,
+    "port_open_retries": 0,
+    "cleanup_uncertain": false,
+    "adb_invoked": false,
+    "external_loader_uploaded": false,
+    "write_started": false,
+    "write_bytes_acked": 0,
+    "write_end_ack": false,
+    "host_handle_closed": true,
+    "protocol_retry": false,
+    "phase": "WAIT_INITIAL_INTERFACE"
+  }
+}

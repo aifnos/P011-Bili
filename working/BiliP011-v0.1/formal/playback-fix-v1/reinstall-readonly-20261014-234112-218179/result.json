@@ -1,0 +1,87 @@
+{
+  "stock": {
+    "wlan0": "up",
+    "app": {
+      "pid": 4787,
+      "parent": 1361,
+      "state": "R",
+      "start": "154640",
+      "args": [
+        "/usr/bin/Z03",
+        "-platform",
+        "wayland"
+      ],
+      "exe": "/usr/bin/Z03"
+    },
+    "boot": "7ae68294-ced4-4a32-8d6d-6fb149373079",
+    "startup": {
+      "path": "/etc/init.d/p011-bili-formal",
+      "kind": "sysv",
+      "init_exe": "/sbin/init.sysvinit",
+      "link": "/etc/rc5.d/S99p011-bili-formal"
+    },
+    "radio": {
+      "bluetoothd": 1,
+      "connmand": 1
+    },
+    "launcher": {
+      "pid": 1361,
+      "parent": 1,
+      "state": "S",
+      "start": "532",
+      "args": [
+        "/bin/sh",
+        "/usr/bin/zyb_z03_launch.sh"
+      ],
+      "exe": "/bin/bash.bash"
+    },
+    "mounts": {
+      "at": "/",
+      "options": [
+        "ro",
+        "relatime",
+        "data=ordered"
+      ],
+      "type": "ext4",
+      "device": "/dev/root"
+    }
+  },
+  "startup_present": false,
+  "receipt_present": false,
+  "runtime_types": {
+    "file": 28,
+    "dir": 1
+  },
+  "runtime_present": true,
+  "startup_link_present": false,
+  "runtime_count": 29,
+  "payload_mismatches": [],
+  "release_present": true,
+  "retained_receipts": [
+    {
+      "path": "/mnt/data/p011-toolbox/bili-formal/backups/9412e49de8feb2d6b2677180-20261014-231059/restored-install-receipt.json",
+      "release_id": "9412e49de8feb2d6b2677180",
+      "restored": true,
+      "root_mount_restored": true,
+      "original_matches": true
+    }
+  ],
+  "release_files": {
+    "media/bin/bili-hw": {
+      "bytes": 489296,
+      "sha256": "09f8b45386946ad97e086aa7615ae84eda5167ae4fe149200c964356e23cb288"
+    },
+    "build-result.json": {
+      "bytes": 1584,
+      "sha256": "522daad344fe111e2a0ba305330c023a070508c6b547f224fa1d34b688446fe3"
+    },
+    "device_install.py": {
+      "bytes": 29393,
+      "sha256": "88f6117dc92d53a8d32860f59d8b56d07cbfc03b85897d8d93741390b85dc25c"
+    },
+    "manifest.json": {
+      "bytes": 7944,
+      "sha256": "d54477eac8cd6a5f3dd24483660b1a6b33d9b458979b4a17320bc82bb68a77ff"
+    }
+  }
+}

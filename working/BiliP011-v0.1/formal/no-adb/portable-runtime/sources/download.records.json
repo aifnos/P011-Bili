@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://www.python.org/ftp/python/3.14.8/python-3.14.8-embed-amd64.zip.spdx.json",
+    "final_url": "https://www.python.org/ftp/python/3.14.8/python-3.14.8-embed-amd64.zip.spdx.json",
+    "bytes": 15247,
+    "sha256": "08f4f6443a869b08c6e8dbd9f891bb13e2afe9ea345763c9a5077d0d8c0410ef",
+    "http_status": 200,
+    "last_modified": "Wed, 30 Sep 2026 19:54:23 GMT",
+    "etag": "\"6abd68ef-3b8f\"",
+    "file": "python-3.14.8-embed-amd64.zip.spdx.json"
+  },
+  {
+    "url": "https://www.python.org/ftp/python/3.14.8/python-3.14.8-embed-amd64.zip.sigstore",
+    "final_url": "https://www.python.org/ftp/python/3.14.8/python-3.14.8-embed-amd64.zip.sigstore",
+    "bytes": 7438,
+    "sha256": "903afdb58d5e29af9a378ee657a0ad589519aebc28954343b47930c2feaf5dc4",
+    "http_status": 200,
+    "last_modified": "Wed, 30 Sep 2026 21:42:07 GMT",
+    "etag": "\"6abd822f-1d0e\"",
+    "file": "python-3.14.8-embed-amd64.zip.sigstore"
+  },
+  {
+    "url": "https://www.python.org/downloads/release/python-3148/",
+    "final_url": "https://www.python.org/downloads/release/python-3148/",
+    "bytes": 13064,
+    "sha256": "8c973f298407a005b5a666d2d26e54afc5415b6f2f2c6189844b6c2c8fa18657",
+    "http_status": 200,
+    "last_modified": null,
+    "etag": null,
+    "file": "official-release-3.14.8.html"
+  },
+  {
+    "url": "https://www.python.org/downloads/",
+    "final_url": "https://www.python.org/downloads/",
+    "bytes": 19330,
+    "sha256": "16065863d13ac8fbb852e7695367da75a21acdc1d3dadc83a8d58db7e04f85d4",
+    "http_status": 200,
+    "last_modified": null,
+    "etag": null,
+    "file": "official-active-releases.html"
+  },
+  {
+    "url": "https://www.python.org/ftp/python/3.14.8/python-3.14.8-embed-amd64.zip",
+    "final_url": "https://www.python.org/ftp/python/3.14.8/python-3.14.8-embed-amd64.zip",
+    "bytes": 12601679,
+    "sha256": "a93abe456ab01bd96d7a085b3cdb6566b3063f4241360d114142fbdb07f0a310",
+    "http_status": 200,
+    "last_modified": "Wed, 30 Sep 2026 19:54:21 GMT",
+    "etag": "\"6abd68ed-c0494f\"",
+    "file": "python-3.14.8-embed-amd64.zip"
+  }
+]

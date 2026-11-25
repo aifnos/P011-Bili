@@ -1,0 +1,429 @@
+{
+  "version": "3.14.8",
+  "architecture": "win-amd64",
+  "url": "https://www.python.org/ftp/python/3.14.8/python-3.14.8-embed-amd64.zip",
+  "zip_sha256": "a93abe456ab01bd96d7a085b3cdb6566b3063f4241360d114142fbdb07f0a310",
+  "official_sbom_sha256_matches": true,
+  "sigstore_bundle_retained": true,
+  "sigstore_cryptographic_verification_performed": false,
+  "timestamp": "2026-10-14T20:05:58.076036+08:00",
+  "upstream_members": [
+    {
+      "name": "python.exe",
+      "bytes": 106208,
+      "sha256": "434b361fe0c5960d404974feed493db47f2603a1ace2574312104fbed0182c6f",
+      "zip_crc32": "2097da59"
+    },
+    {
+      "name": "pythonw.exe",
+      "bytes": 104672,
+      "sha256": "4e24680bce514188c85ae91323691dcb0364990da0d6319558519e50cbb5a43c",
+      "zip_crc32": "5c93821d"
+    },
+    {
+      "name": "python314.dll",
+      "bytes": 6792928,
+      "sha256": "854fe7549eb4b2ac478935a38ae2ca1b774c6fdc3d87f0263fbd697ff86d7149",
+      "zip_crc32": "88cc67d9"
+    },
+    {
+      "name": "python3.dll",
+      "bytes": 73952,
+      "sha256": "f9acdbcf3383a52353f8d7db3cbda3d3701b1cf7ac3053985fdac766c29e7808",
+      "zip_crc32": "ef424c55"
+    },
+    {
+      "name": "vcruntime140.dll",
+      "bytes": 178616,
+      "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7",
+      "zip_crc32": "92723758"
+    },
+    {
+      "name": "vcruntime140_1.dll",
+      "bytes": 50112,
+      "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e",
+      "zip_crc32": "9181ef53"
+    },
+    {
+      "name": "LICENSE.txt",
+      "bytes": 35407,
+      "sha256": "935cf13e19f8c31b497d20b05d73623431a226b230c3599bc30fa3348979bc68",
+      "zip_crc32": "26fa743d"
+    },
+    {
+      "name": "pyexpat.pyd",
+      "bytes": 201440,
+      "sha256": "36d775e2c2fa5bbda86ddc7c6ea632414df04f7a403b9e17587c99088d29cd7b",
+      "zip_crc32": "081f0f09"
+    },
+    {
+      "name": "select.pyd",
+      "bytes": 33504,
+      "sha256": "a341519a00befc3b86dfddf5938915fed52ded1ad5aab518c57d0b3c8969e835",
+      "zip_crc32": "d455c4d0"
+    },
+    {
+      "name": "unicodedata.pyd",
+      "bytes": 758496,
+      "sha256": "0527fee5192ab4567451d1296533600661571f6ebf9e8f4e0f60b63a4a4fd2e8",
+      "zip_crc32": "47a3f70e"
+    },
+    {
+      "name": "winsound.pyd",
+      "bytes": 32992,
+      "sha256": "7681b4d88ac96763bb89f018d1c658feeca782d8bfc6d223b06d2ef125780579",
+      "zip_crc32": "368b8dd8"
+    },
+    {
+      "name": "_asyncio.pyd",
+      "bytes": 78560,
+      "sha256": "58b3e50104db6bf9d76e3d8106f9f477d34109a887d547ee086b0289e6a4e224",
+      "zip_crc32": "6fb75c9f"
+    },
+    {
+      "name": "_bz2.pyd",
+      "bytes": 87776,
+      "sha256": "b02f580daa0b390b2228d2a8186ef119be658c89cc64d0bd909550786ed993f2",
+      "zip_crc32": "992923b3"
+    },
+    {
+      "name": "_ctypes.pyd",
+      "bytes": 143072,
+      "sha256": "b96680c6bcad9e9403711ec0977866325e8e5aab93b56e83c3df6280ae72a82a",
+      "zip_crc32": "2c0fcbda"
+    },
+    {
+      "name": "_decimal.pyd",
+      "bytes": 290016,
+      "sha256": "196c42414c16e804874988783b8a356bf1d012d32e99efbc6e360e94920c46ec",
+      "zip_crc32": "c1b8ad62"
+    },
+    {
+      "name": "_elementtree.pyd",
+      "bytes": 138976,
+      "sha256": "31aff8dca815a05904b5d3020fbdd5bdb596b6a07a36f31728996f28e06dab24",
+      "zip_crc32": "f2e87118"
+    },
+    {
+      "name": "_hashlib.pyd",
+      "bytes": 69344,
+      "sha256": "5dee7b9fff3e6d0abe20601b9e62f3a14cd048167ee0b80781131dc81dec9469",
+      "zip_crc32": "17b926bb"
+    },
+    {
+      "name": "_lzma.pyd",
+      "bytes": 160992,
+      "sha256": "9099ef451fe61d8feef9e02894902b88fdc8ee404e3f8b7412b150878c973803",
+      "zip_crc32": "9a09bc39"
+    },
+    {
+      "name": "_multiprocessing.pyd",
+      "bytes": 38624,
+      "sha256": "18041441b3f558925f903bc7af644a4d84b1cd746a4998748b4fffd82e767a6b",
+      "zip_crc32": "e5c79700"
+    },
+    {
+      "name": "_overlapped.pyd",
+      "bytes": 58080,
+      "sha256": "eca5d3df23b762c846801194b6c971aae4eb288e1fc2914752b3a6c2df5aebfb",
+      "zip_crc32": "71b31c4e"
+    },
+    {
+      "name": "_queue.pyd",
+      "bytes": 36576,
+      "sha256": "1e2e1ede7eeaf30a80ece546420dec67a02716e25d3a7c638e4deb0c21e973a1",
+      "zip_crc32": "77a9d10b"
+    },
+    {
+      "name": "_remote_debugging.pyd",
+      "bytes": 93408,
+      "sha256": "0497ee6846cd92419ada56c091ab675ab6896ad3bfdcf88eec4dcda2cdfd5a4d",
+      "zip_crc32": "90f49c6c"
+    },
+    {
+      "name": "_socket.pyd",
+      "bytes": 87776,
+      "sha256": "18a77c4e1f4a71ca60b9dbbba809e98cd324f3e1470d091689b87754a8c65588",
+      "zip_crc32": "b6313257"
+    },
+    {
+      "name": "_sqlite3.pyd",
+      "bytes": 133344,
+      "sha256": "e69caeadb409777bce26f78622653558bbb86f08479b412399eaa0e6fd1e44f1",
+      "zip_crc32": "cbe9bb72"
+    },
+    {
+      "name": "_ssl.pyd",
+      "bytes": 192224,
+      "sha256": "49df86fe76ed8fd97bb11a485286b49f5f5ebe953383648976a39c9de6f0524d",
+      "zip_crc32": "776f20d7"
+    },
+    {
+      "name": "_uuid.pyd",
+      "bytes": 28384,
+      "sha256": "7e2cdd954b44b1be1fac1c354f774dab5f5becfce59688e62338427b125c62bf",
+      "zip_crc32": "7f310a9a"
+    },
+    {
+      "name": "_wmi.pyd",
+      "bytes": 40160,
+      "sha256": "5366924c1c96d9c9f82f95967fbf73244d4b4930f39103d7e7ba2b01046e0a46",
+      "zip_crc32": "8fd6f5b4"
+    },
+    {
+      "name": "_zoneinfo.pyd",
+      "bytes": 51936,
+      "sha256": "cdf82faa904e557b847a0ac6e97b4274945615fdbd319a28bcaa1f70f740636f",
+      "zip_crc32": "e98794f8"
+    },
+    {
+      "name": "_zstd.pyd",
+      "bytes": 503520,
+      "sha256": "526d977236cc63895902977f216bf3ca93a4233489240656b295eafb6f518d07",
+      "zip_crc32": "8c18a3b7"
+    },
+    {
+      "name": "libcrypto-3.dll",
+      "bytes": 6021880,
+      "sha256": "75495fe0e079ab00d49be740d3c710a0b94e3f74f9648cb7cc9f768fc7f52319",
+      "zip_crc32": "503e905a"
+    },
+    {
+      "name": "libffi-8.dll",
+      "bytes": 39696,
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
+      "zip_crc32": "84e3aa71"
+    },
+    {
+      "name": "libssl-3.dll",
+      "bytes": 1308920,
+      "sha256": "8957182a9c385bfd9f3f790921de2ddc614cf91f99edbed4e9e5446a46504e32",
+      "zip_crc32": "b6567313"
+    },
+    {
+      "name": "libtommath.dll",
+      "bytes": 95456,
+      "sha256": "aaea8a20db7a7a96d4bef74ad724c4a02595a9c47659f6cbd6f145af0c97aa78",
+      "zip_crc32": "95f3a404"
+    },
+    {
+      "name": "sqlite3.dll",
+      "bytes": 1584864,
+      "sha256": "5c47df970d2e8cc41239754ff167056fcecb1089f876736e51dab5d89f980300",
+      "zip_crc32": "146d1a7b"
+    },
+    {
+      "name": "python314.zip",
+      "bytes": 4152838,
+      "sha256": "dfa08b46ce09089b7e6bc139784d5609a07770bab66df8d37938ca9bd508e436",
+      "zip_crc32": "4f06d300"
+    },
+    {
+      "name": "python314._pth",
+      "bytes": 80,
+      "sha256": "2ed7ccda80e9e28ab5877902a9a325586c8a7b7b3e6731d944565bee082e216c",
+      "zip_crc32": "03bdf35d"
+    },
+    {
+      "name": "python.cat",
+      "bytes": 601161,
+      "sha256": "8d723cf908852e0ae02d6ad4451a0214ce7c7a09aa6d9a4a7fc48024583f8494",
+      "zip_crc32": "0d86c567"
+    }
+  ],
+  "configured_runtime_members": [
+    {
+      "name": "_asyncio.pyd",
+      "bytes": 78560,
+      "sha256": "58b3e50104db6bf9d76e3d8106f9f477d34109a887d547ee086b0289e6a4e224"
+    },
+    {
+      "name": "_bz2.pyd",
+      "bytes": 87776,
+      "sha256": "b02f580daa0b390b2228d2a8186ef119be658c89cc64d0bd909550786ed993f2"
+    },
+    {
+      "name": "_ctypes.pyd",
+      "bytes": 143072,
+      "sha256": "b96680c6bcad9e9403711ec0977866325e8e5aab93b56e83c3df6280ae72a82a"
+    },
+    {
+      "name": "_decimal.pyd",
+      "bytes": 290016,
+      "sha256": "196c42414c16e804874988783b8a356bf1d012d32e99efbc6e360e94920c46ec"
+    },
+    {
+      "name": "_elementtree.pyd",
+      "bytes": 138976,
+      "sha256": "31aff8dca815a05904b5d3020fbdd5bdb596b6a07a36f31728996f28e06dab24"
+    },
+    {
+      "name": "_hashlib.pyd",
+      "bytes": 69344,
+      "sha256": "5dee7b9fff3e6d0abe20601b9e62f3a14cd048167ee0b80781131dc81dec9469"
+    },
+    {
+      "name": "_lzma.pyd",
+      "bytes": 160992,
+      "sha256": "9099ef451fe61d8feef9e02894902b88fdc8ee404e3f8b7412b150878c973803"
+    },
+    {
+      "name": "_multiprocessing.pyd",
+      "bytes": 38624,
+      "sha256": "18041441b3f558925f903bc7af644a4d84b1cd746a4998748b4fffd82e767a6b"
+    },
+    {
+      "name": "_overlapped.pyd",
+      "bytes": 58080,
+      "sha256": "eca5d3df23b762c846801194b6c971aae4eb288e1fc2914752b3a6c2df5aebfb"
+    },
+    {
+      "name": "_queue.pyd",
+      "bytes": 36576,
+      "sha256": "1e2e1ede7eeaf30a80ece546420dec67a02716e25d3a7c638e4deb0c21e973a1"
+    },
+    {
+      "name": "_remote_debugging.pyd",
+      "bytes": 93408,
+      "sha256": "0497ee6846cd92419ada56c091ab675ab6896ad3bfdcf88eec4dcda2cdfd5a4d"
+    },
+    {
+      "name": "_socket.pyd",
+      "bytes": 87776,
+      "sha256": "18a77c4e1f4a71ca60b9dbbba809e98cd324f3e1470d091689b87754a8c65588"
+    },
+    {
+      "name": "_sqlite3.pyd",
+      "bytes": 133344,
+      "sha256": "e69caeadb409777bce26f78622653558bbb86f08479b412399eaa0e6fd1e44f1"
+    },
+    {
+      "name": "_ssl.pyd",
+      "bytes": 192224,
+      "sha256": "49df86fe76ed8fd97bb11a485286b49f5f5ebe953383648976a39c9de6f0524d"
+    },
+    {
+      "name": "_uuid.pyd",
+      "bytes": 28384,
+      "sha256": "7e2cdd954b44b1be1fac1c354f774dab5f5becfce59688e62338427b125c62bf"
+    },
+    {
+      "name": "_wmi.pyd",
+      "bytes": 40160,
+      "sha256": "5366924c1c96d9c9f82f95967fbf73244d4b4930f39103d7e7ba2b01046e0a46"
+    },
+    {
+      "name": "_zoneinfo.pyd",
+      "bytes": 51936,
+      "sha256": "cdf82faa904e557b847a0ac6e97b4274945615fdbd319a28bcaa1f70f740636f"
+    },
+    {
+      "name": "_zstd.pyd",
+      "bytes": 503520,
+      "sha256": "526d977236cc63895902977f216bf3ca93a4233489240656b295eafb6f518d07"
+    },
+    {
+      "name": "libcrypto-3.dll",
+      "bytes": 6021880,
+      "sha256": "75495fe0e079ab00d49be740d3c710a0b94e3f74f9648cb7cc9f768fc7f52319"
+    },
+    {
+      "name": "libffi-8.dll",
+      "bytes": 39696,
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a"
+    },
+    {
+      "name": "libssl-3.dll",
+      "bytes": 1308920,
+      "sha256": "8957182a9c385bfd9f3f790921de2ddc614cf91f99edbed4e9e5446a46504e32"
+    },
+    {
+      "name": "libtommath.dll",
+      "bytes": 95456,
+      "sha256": "aaea8a20db7a7a96d4bef74ad724c4a02595a9c47659f6cbd6f145af0c97aa78"
+    },
+    {
+      "name": "LICENSE.txt",
+      "bytes": 35407,
+      "sha256": "935cf13e19f8c31b497d20b05d73623431a226b230c3599bc30fa3348979bc68"
+    },
+    {
+      "name": "pyexpat.pyd",
+      "bytes": 201440,
+      "sha256": "36d775e2c2fa5bbda86ddc7c6ea632414df04f7a403b9e17587c99088d29cd7b"
+    },
+    {
+      "name": "python.cat",
+      "bytes": 601161,
+      "sha256": "8d723cf908852e0ae02d6ad4451a0214ce7c7a09aa6d9a4a7fc48024583f8494"
+    },
+    {
+      "name": "python.exe",
+      "bytes": 106208,
+      "sha256": "434b361fe0c5960d404974feed493db47f2603a1ace2574312104fbed0182c6f"
+    },
+    {
+      "name": "python3.dll",
+      "bytes": 73952,
+      "sha256": "f9acdbcf3383a52353f8d7db3cbda3d3701b1cf7ac3053985fdac766c29e7808"
+    },
+    {
+      "name": "python314._pth",
+      "bytes": 82,
+      "sha256": "f8235de6e8c536406f9f9deaee985d3cf3c05ff833f2fe99b6fd8f67f3d126e6"
+    },
+    {
+      "name": "python314._pth.upstream",
+      "bytes": 80,
+      "sha256": "2ed7ccda80e9e28ab5877902a9a325586c8a7b7b3e6731d944565bee082e216c"
+    },
+    {
+      "name": "python314.dll",
+      "bytes": 6792928,
+      "sha256": "854fe7549eb4b2ac478935a38ae2ca1b774c6fdc3d87f0263fbd697ff86d7149"
+    },
+    {
+      "name": "python314.zip",
+      "bytes": 4152838,
+      "sha256": "dfa08b46ce09089b7e6bc139784d5609a07770bab66df8d37938ca9bd508e436"
+    },
+    {
+      "name": "pythonw.exe",
+      "bytes": 104672,
+      "sha256": "4e24680bce514188c85ae91323691dcb0364990da0d6319558519e50cbb5a43c"
+    },
+    {
+      "name": "select.pyd",
+      "bytes": 33504,
+      "sha256": "a341519a00befc3b86dfddf5938915fed52ded1ad5aab518c57d0b3c8969e835"
+    },
+    {
+      "name": "sqlite3.dll",
+      "bytes": 1584864,
+      "sha256": "5c47df970d2e8cc41239754ff167056fcecb1089f876736e51dab5d89f980300"
+    },
+    {
+      "name": "unicodedata.pyd",
+      "bytes": 758496,
+      "sha256": "0527fee5192ab4567451d1296533600661571f6ebf9e8f4e0f60b63a4a4fd2e8"
+    },
+    {
+      "name": "vcruntime140.dll",
+      "bytes": 178616,
+      "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+    },
+    {
+      "name": "vcruntime140_1.dll",
+      "bytes": 50112,
+      "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+    },
+    {
+      "name": "winsound.pyd",
+      "bytes": 32992,
+      "sha256": "7681b4d88ac96763bb89f018d1c658feeca782d8bfc6d223b06d2ef125780579"
+    }
+  ],
+  "configuration_change": "Only python314._pth changed; original retained as python314._pth.upstream",
+  "driver_status": "NOT_READY_REDISTRIBUTION_LICENSE_UNVERIFIED",
+  "formal_flash_installer": false
+}

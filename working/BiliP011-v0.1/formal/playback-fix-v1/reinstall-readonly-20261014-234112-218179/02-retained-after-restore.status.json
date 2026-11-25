@@ -1,0 +1,9 @@
+{
+  "host_exit": 0,
+  "remote_exit": 0,
+  "timeout": false,
+  "stderr_bytes": 0,
+  "remote_exit_applicable": true,
+  "remote_exit_marker_count": 1,
+  "remote_streams": "merged_pty"
+}

@@ -1,0 +1,10 @@
+{
+  "runtime_members_verified": 39,
+  "upstream_members": 37,
+  "zip_sha256": "a93abe456ab01bd96d7a085b3cdb6566b3063f4241360d114142fbdb07f0a310",
+  "runtime_license_bytes": 35407,
+  "driver_status": "NOT_READY",
+  "result_zip": "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\no-adb\\portable-runtime\\logs\\host-20261014-200802-496459-corrected-windows-pth.zip",
+  "result_zip_sha256": "61dee896285d919598d6eaae4e86cd5ab2a19b0cc397101a70bc5f07da6f2e3d",
+  "readonly_manifest_check": true
+}

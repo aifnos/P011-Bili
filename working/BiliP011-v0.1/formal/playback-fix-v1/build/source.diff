@@ -1,0 +1,11 @@
+--- original/hardware_cache_gate.hpp
++++ fixed/hardware_cache_gate.hpp
+@@ -18,7 +18,7 @@
+     char path[4096];ssize_t length=readlink("/proc/self/exe",path,sizeof(path)-1);
+     if(length<=0||length==ssize_t(sizeof(path)-1))return {};path[length]=0;
+     std::string exe=path;
+-    if(!std::regex_match(exe,std::regex("/mnt/data/p011-toolbox/bili-media/[a-f0-9]{16}/bin/bili-hw")))return {};
++    if(!std::regex_match(exe,std::regex("(?:/mnt/data/p011-toolbox/bili-media/[a-f0-9]{16}|/mnt/data/p011-toolbox/bili-formal/releases/[a-f0-9]{24}/media|/opt/p011-bili/releases/[a-f0-9]{24}/media)/bin/bili-hw")))return {};
+     auto root=exe.substr(0,exe.size()-strlen("/bin/bili-hw"));
+     auto plugin=root+"/lib/gst/libgstomx.so";struct stat info{};
+     if(lstat(plugin.c_str(),&info)||!S_ISREG(info.st_mode)||info.st_uid!=getuid())return {};

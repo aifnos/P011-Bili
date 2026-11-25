@@ -1,0 +1,24 @@
+{
+  "status": "NOT_COMPLETE",
+  "prior_zip_sha256": "171de9c88a3d3c792c127ec97ce1490375bf30920bc6284215990e9fca664fc5",
+  "mode_sent": false,
+  "exec_sent": false,
+  "storage_read_or_write": false,
+  "physical_acceptance": false,
+  "error": "NodeUnavailable: Download node is not ready",
+  "transport": {
+    "mode_attempts": 0,
+    "sync_attempts": 0,
+    "open_attempts": 1,
+    "port_open_retries": 0,
+    "cleanup_uncertain": false,
+    "adb_invoked": false,
+    "external_loader_uploaded": false,
+    "write_started": false,
+    "write_bytes_acked": 0,
+    "write_end_ack": false,
+    "host_handle_closed": true,
+    "protocol_retry": false,
+    "phase": "CONTINUE_EXISTING_NO_MODE"
+  }
+}

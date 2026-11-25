@@ -1,0 +1,25 @@
+{
+  "status": {
+    "scope": "HOST_PORTABLE_RUNTIME_ONLY_NO_DEVICE_IO",
+    "command": [
+      "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\no-adb\\portable-runtime\\python-3.14.8-embed-amd64\\python.exe",
+      "-u",
+      "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\no-adb\\portable-runtime\\validate_host.py",
+      "--output",
+      "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\no-adb\\portable-runtime\\logs\\host-20261014-200558-076036\\validation"
+    ],
+    "host_exit": 1,
+    "timeout": false,
+    "remote_exit": null,
+    "remote_exit_applicable": false,
+    "driver_status": "NOT_READY",
+    "inventory_called": false,
+    "serial_opened": false,
+    "real_core_called": false
+  },
+  "host_log_directory": "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\no-adb\\portable-runtime\\logs\\host-20261014-200558-076036",
+  "host_result_zip": "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\no-adb\\portable-runtime\\logs\\host-20261014-200558-076036.zip",
+  "host_result_zip_sha256": "8b67c7842508348d335650d270ce5cdef3397d1163c1c911f55b3f359e0403fb",
+  "host_result_zip_crc_verified": true,
+  "runtime_python": "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\no-adb\\portable-runtime\\python-3.14.8-embed-amd64\\python.exe"
+}

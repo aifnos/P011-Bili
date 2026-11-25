@@ -1,0 +1,9 @@
+{
+  "status": "NOT_READY",
+  "reason": "REDISTRIBUTION_LICENSE_AND_COMPLETE_SIGNED_PACKAGE_UNVERIFIED",
+  "driver_bundle_present": false,
+  "driver_installed_by_this_task": false,
+  "driver_store_exported": false,
+  "public_distribution_authorized_source_verified": false,
+  "host_runtime_pass_is_driver_or_flash_acceptance": false
+}

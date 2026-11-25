@@ -1,0 +1,7 @@
+#!/bin/sh
+# Independent P011 Bili candidate, after stock SysV runlevel 5 services.
+# No vendor startup replacement, ADB, radio, mount or partition command.
+case "$1" in
+    start|stop) exec /usr/bin/python3 -B /opt/p011-bili/releases/@RELEASE_ID@/system_bootstrap.py "$1" ;;
+    *) exit 2 ;;
+esac

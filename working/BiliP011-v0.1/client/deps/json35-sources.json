@@ -1,0 +1,7 @@
+{
+  "json/__init__.py": "edd122c8ee72b9421088b1a9d0411ab5bb3480b726b751f1f00e980aa4c5b23a",
+  "json/decoder.py": "7e123f8b4ec8597070fe2793636edda4ca937adf1e1f12705971e892fbb5c459",
+  "json/encoder.py": "f92df10b23f6520f82c75dfa65916b1c4c69c8a0cf948cf29f959b6ab15c99e1",
+  "json/scanner.py": "723b6f210c5d1ca340832b51c8920a8a0fb90ea1920582655bd976d3e5c0b20e",
+  "LICENSE-PSF.txt": "526a15318fc31c5edc8cb67ec8613a22c4c9d9cec797e4a786377cf36cd7b087"
+}

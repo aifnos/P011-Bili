@@ -1,0 +1,17 @@
+{
+  "status": "ALL_RAW_TX_RX_REVIEWED",
+  "tx_requests": 277,
+  "rx_responses": 276,
+  "tx_bytes": 4468,
+  "rx_bytes": 1083832,
+  "mode_requests": 1,
+  "initial_crc_sync_requests": 1,
+  "write_erase_reset_requests": 0,
+  "external_loader_requests": 0,
+  "read_partitions": [
+    "user_partition",
+    "uboot"
+  ],
+  "all_read_bytes_equal_saved_files": true,
+  "engine_sha256": "40e487ab39388bf671237312b55c4d0598416f6823e6ced6f997386fae2c0b82"
+}

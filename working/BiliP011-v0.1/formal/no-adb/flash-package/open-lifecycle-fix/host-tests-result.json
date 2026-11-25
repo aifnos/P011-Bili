@@ -1,0 +1,15 @@
+{
+  "scope": "HOST_MOCKED_NO_DLL_NO_PNP_NO_SERIAL_NO_TX",
+  "tests": 48,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "files": {
+    "engine.py": "7d90ac73ecc5a5bc25b10d5d854ceec29363b2918bbf7b8c70eecf0988c6acf1",
+    "flash.py": "056fe5474a6add32eec2609edfad9a79eb655cdc1f52cedafa82ba1d1d5637f0",
+    "test_open_lifecycle.py": "7a909be8b52cacf09caf6adc0cc5c35ad32004577bb6ebeea05fa95c2c2e4f48",
+    "win32_download_transport.py": "14acb8f384a519b829488bb19afd0032597d31dddae42aab8b4156dd875f6dff"
+  },
+  "system_device_acceptance": false,
+  "real_433_recovery_verified": false
+}

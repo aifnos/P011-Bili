@@ -1,0 +1,110 @@
+{
+  "host_exit": 0,
+  "formal_runtime": true,
+  "device_tested": false,
+  "playback_limit_seconds": 86400,
+  "status": "HOST_ONLY",
+  "source_files": {
+    "formal/playback-fix-v1/native/build_container.py": "f5a85c4f03dd348f0adbf98e76e6e0efb6e1458f0a525ad75e24673b2ee9f8e1",
+    "formal/playback-fix-v1/native/client/api.cpp": "259ae7953705d58477857601cd5db1818471d2a70c68c3a04d6daf4df5924ad0",
+    "formal/playback-fix-v1/native/client/api_account.hpp": "52211d2d3e5f73fbd4d1861841459e48511aac68d2950d738edbde7d3789cc78",
+    "formal/playback-fix-v1/native/client/api_catalog.hpp": "c8b51803c45534a6f286f07d110d0cdfa79ebbb4df38af8c309bf618f3faf516",
+    "formal/playback-fix-v1/native/client/api_extensions.hpp": "d3f5735625887d241aabb77b7beb781cbb0ae984368361f4430dd992f3619ba6",
+    "formal/playback-fix-v1/native/client/api_media_actions.hpp": "fd21cee14409a5a797f4d2d350a196fe723213b42f896651ad95016ecffefefe",
+    "formal/playback-fix-v1/native/client/cached_media.hpp": "8bfbedc8f41562c0cdff9b2eb11736d4d3c722a39074f6a3ab3e71e659df0378",
+    "formal/playback-fix-v1/native/client/danmaku_timeline.hpp": "6bdc5af73f8444a75e4ae913ab9f88bc6c4074b0c25034b178e98fc607b2b42e",
+    "formal/playback-fix-v1/native/client/drm_trace.hpp": "92ee16e206529dc9a71b6aaa57c2425ffd246f67ff6d47f3dcf6f911f83b111a",
+    "formal/playback-fix-v1/native/client/frame_telemetry.hpp": "93899d89fa1375dc47b47e18b3f3dd164c97006f49e06d8d10f27d7156be86d2",
+    "formal/playback-fix-v1/native/client/h264_access_unit.hpp": "eb4860b7110ef4743e3eef462c59c8d8f27b0b024a0d4400a0c09c68f9c630e7",
+    "formal/playback-fix-v1/native/client/hardware_allocation.hpp": "f29ced8d9624b9bf1b1ed2481bf9a26421932e3ca3d9cc604f9b557ed040318a",
+    "formal/playback-fix-v1/native/client/hardware_cache_gate.hpp": "4c79d5dc2f01d2cfc33e815895ea71e3f05f592815027a3f59277d781c73d949",
+    "formal/playback-fix-v1/native/client/hardware_client.hpp": "80a922befc30e87a35cdb8ffd9c817052ad6a0a8dcf30913023624a49206a76f",
+    "formal/playback-fix-v1/native/client/hardware_clock.hpp": "c715068b792f68df73537f876ff27d3fc900d082fe4df37d533b05997dd51745",
+    "formal/playback-fix-v1/native/client/hardware_output.hpp": "d3feebe9594437430f44c6aa160d5010c9ce755917ff03ec4c757587e860947d",
+    "formal/playback-fix-v1/native/client/hardware_pack.hpp": "805a240b62f4e669c8ba2f41664fc233b8e4a153c58231c0a64ab8f7df847cfc",
+    "formal/playback-fix-v1/native/client/hardware_picture.hpp": "95e330fd62953378a6e079447a96a3fbc2a8f191eb1710e2b66af6dfa15bb1ca",
+    "formal/playback-fix-v1/native/client/hardware_protocol.hpp": "5acf6bb6eec9b7e77de5145e06caa2f416006298d52de382050a8c62f5512843",
+    "formal/playback-fix-v1/native/client/hardware_worker.cpp": "cd391e9bce3d11775551904fb973358a8a9aa13f20fe5a8d37c9af73a8b706da",
+    "formal/playback-fix-v1/native/client/media_prefetch.hpp": "eed02d7ccf421fc441f97db3e7972afa4b9a0e06f8d4d4b045d75a452efffa3d",
+    "formal/playback-fix-v1/native/client/media_prefix.hpp": "3dfe6851a9210922765beb13b69083665f621c427752fb71fc6b83848b8917aa",
+    "formal/playback-fix-v1/native/client/media_range.hpp": "fb005483f25b98459ff84071e89cfc5a4a95239047183e5a177dc7eb59512d04",
+    "formal/playback-fix-v1/native/client/player.cpp": "baf7293b377b36c96f3c7e5b12566ba68342ee224aa03d5083dd5ff753dc8ac4",
+    "formal/playback-fix-v1/native/client/player_controls.hpp": "1579d906a93f29e99d262027ad34b61074fad9d1b7a9c1accab09e9a7bec8d63",
+    "formal/playback-fix-v1/native/client/player_features.hpp": "bbed5f6e470b4b85648d9eae3157bd75f93136aa60aeceb3aa0acfb69826f2fd",
+    "formal/playback-fix-v1/native/client/player_geometry.hpp": "8927a4292051f01876c7754eede511bbdb6c8a573eb519a939b742cd4f7f1128",
+    "formal/playback-fix-v1/native/client/player_gestures.hpp": "fbeb00b8af069153c1d736ca8264c20cdcdc9bd89d89a12dda795c661f51f93a",
+    "formal/playback-fix-v1/native/client/player_packets.hpp": "c09c4b0ca08857001022ccf0652743962717d1d78be022dcc5fa41e1f102caba",
+    "formal/playback-fix-v1/native/client/player_phase.hpp": "df1ac5c4d3619bcc7484019aea33e9b1fdb4a0287de715d0c1f2809819c6b082",
+    "formal/playback-fix-v1/native/client/player_preview_image.hpp": "9d74abb7f2c3b957cd335ecbc9d4eec576086c5c5cbc831d7141236417b9bf57",
+    "formal/playback-fix-v1/native/client/player_settings.hpp": "cef10883b371578f0e54038338cd95ee4b3fb031485badc2ba89e961bfe33f91",
+    "formal/playback-fix-v1/native/client/player_surface.hpp": "71e79c2e0a6b0e97edeab0f509618d8ab403bb8cf3cbe03ea3147041f1e0383b",
+    "formal/playback-fix-v1/native/client/player_v2.cpp": "45ca858e617d4f89be41ed26bf6d78ae257959f4a00244e06b89c39eb3408352",
+    "formal/playback-fix-v1/native/client/progress_overlay.hpp": "31572f4da8f6117d05fbafe1fb36193fb89e0c6b843400d02d487f0082f424ae",
+    "formal/playback-fix-v1/native/client/stream_transaction.hpp": "3789b9fc5b8991464a5f01ad7cc309b996d53e37b53e9415c7f1882336af84b9",
+    "formal/playback-fix-v1/native/client/wayland_frame_pacer.hpp": "ae8dc8e0b8f5b816a3937b8a5406cb6bad8676aa1d0b1e7d5298f71ab5c68539",
+    "formal/playback-fix-v1/native/client/wayland_presentation.hpp": "14e1131bc9b54b773be5a4d7a6a381acb5ea53e1bc7486537159e3835569787d",
+    "formal/playback-fix-v1/native/probes/memion_cache.cpp": "098a415278ec6331c480ee4052124175ddbbfe396540e519ea26e61d7b74c207",
+    "formal/playback-fix-v1/native/probes/omx_cache_bridge.h": "452aa726e8652a62fc408be4511b0b9c0188652b4749748284c3d4cccfa64d1d"
+  },
+  "image": "sha256:db2af23faa95ed8f7b60c498db045e66aa187dcc0d938d7c106e96baa6d009b8",
+  "original_worker_sha256": "8008b18eb95dd2d8a8763758ecbeae1c7fd2d3b027bef25ea929c0f1db898f69",
+  "allowed_change": "Accept exact legacy, formal-data and formal-system media bundle locations",
+  "gate_host_exit": 0,
+  "artifacts": {
+    "bin/bili-player": {
+      "sha256": "2c061658a14e259ac507b0207d4286255dcb65379b79c6e989e530fa5e38fe6f",
+      "bytes": 888956,
+      "elf_class": "ELF32",
+      "elf_machine": "ARM",
+      "byte_order": "little",
+      "glibc": [
+        "2.17",
+        "2.27",
+        "2.4",
+        "2.9"
+      ],
+      "needed": [
+        "libwayland-client.so.0",
+        "libSDL2-2.0.so.0",
+        "libGLESv2.so.2",
+        "libmali.so.0",
+        "libmpv.so.2",
+        "libfreetype.so.6",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libpthread.so.0",
+        "libc.so.6"
+      ]
+    },
+    "bin/bili-hw": {
+      "sha256": "09f8b45386946ad97e086aa7615ae84eda5167ae4fe149200c964356e23cb288",
+      "bytes": 489296,
+      "elf_class": "ELF32",
+      "elf_machine": "ARM",
+      "byte_order": "little",
+      "glibc": [
+        "2.4"
+      ],
+      "needed": [
+        "libgstvideo-1.0.so.0",
+        "libgstapp-1.0.so.0",
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libdl.so.2",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libpthread.so.0",
+        "libc.so.6"
+      ]
+    }
+  },
+  "toolchain": {
+    "version": "arm-buildroot-linux-gnueabihf-g++.br_real (Buildroot 2018.08-git-00807-g0184fa3) 8.2.0\nCopyright (C) 2018 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "binary_sha256": "6116428be910662626469a9d177067e35a71df5febe311b804582b45f5bdb318",
+    "triple": "arm-buildroot-linux-gnueabihf"
+  }
+}

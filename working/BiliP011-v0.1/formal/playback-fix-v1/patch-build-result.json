@@ -1,0 +1,15 @@
+{
+  "package": "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\out\\P011-Bili-PlaybackFix-v4-20261014",
+  "revision": "37f83198620ab7b7953e45207306e5505b8eee604bf2acd83df020369c1b4844",
+  "archive": "D:\\project\\P011\\working\\BiliP011-v0.1\\formal\\out\\P011-Bili-PlaybackFix-v4-20261014.private.zip",
+  "sha256": "11df04691d505ae7fcb531d76e57534603b4fa040df00a5610413e684f363464",
+  "changed_files": [
+    "media/bin/bili-hw",
+    "app/config.py",
+    "media/manifest.json",
+    "app/native-build-result.json",
+    "source-manifest.json",
+    "manifest.json",
+    "build-result.json"
+  ]
+}

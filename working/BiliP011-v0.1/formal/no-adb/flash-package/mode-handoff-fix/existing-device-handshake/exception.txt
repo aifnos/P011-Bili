@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "D:\project\P011\working\BiliP011-v0.1\formal\no-adb\flash-package\mode-handoff-fix\probe_existing.py", line 54, in main
+    session.serial = engine.win.open_download(node)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\project\P011\working\BiliP011-v0.1\formal\no-adb\flash-package\out\P011-Bili-NoADB-v5-open-20261014\app\win32_download_transport.py", line 344, in open_download
+    _current_exact(expected)
+    ~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\project\P011\working\BiliP011-v0.1\formal\no-adb\flash-package\out\P011-Bili-NoADB-v5-open-20261014\app\win32_download_transport.py", line 295, in _current_exact
+    raise NodeUnavailable('Download node is not ready')
+win32_download_transport.NodeUnavailable: Download node is not ready
+open_download stage=identity_after_configure; handle_closed=True; cleanup_winerror=None

@@ -1,0 +1,10 @@
+{
+  "scope": "HOST_ONLY_FAKE_PNP_NO_DEVICE",
+  "new_initial_cases": 8,
+  "affected_complete_connect_case": 1,
+  "chunk_id": "dab4af",
+  "wall_time_seconds": 0.4049295,
+  "exit_code": 0,
+  "original_token_count": 677,
+  "output": "test_flapping_does_not_extend_readiness_deadline (__main__.InitialReadyTests.test_flapping_does_not_extend_readiness_deadline) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\n下载接口已出现，正在等待 Windows 完成串口启动；无需重复安装驱动。\r\nok\r\ntest_identity_change_while_waiting_is_refused (__main__.InitialReadyTests.test_identity_change_while_waiting_is_refused) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\n下载接口已出现，正在等待 Windows 完成串口启动；无需重复安装驱动。\r\nok\r\ntest_metadata_configret_transient_is_observation_only (__main__.InitialReadyTests.test_metadata_configret_transient_is_observation_only) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\nok\r\ntest_multiple_or_normal_system_stops_before_open (__main__.InitialReadyTests.test_multiple_or_normal_system_stops_before_open) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\n等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\nok\r\ntest_node_appears_before_started_and_port (__main__.InitialReadyTests.test_node_appears_before_started_and_port) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\n下载接口已出现，正在等待 Windows 完成串口启动；无需重复安装驱动。\r\nok\r\ntest_permanent_problem_reports_actual_code_without_mode (__main__.InitialReadyTests.test_permanent_problem_reports_actual_code_without_mode) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\n下载接口已出现，正在等待 Windows 完成串口启动；无需重复安装驱动。\r\nok\r\ntest_ready_immediately_has_no_extra_stability_delay (__main__.InitialReadyTests.test_ready_immediately_has_no_extra_stability_delay) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\nok\r\ntest_started_before_com_assignment (__main__.InitialReadyTests.test_started_before_com_assignment) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\n下载接口已出现，正在等待 Windows 完成串口启动；无需重复安装驱动。\r\nok\r\ntest_full_sequence_reopens_only_after_delayed_reenumeration (test_reenum.ReenumerationTests.test_full_sequence_reopens_only_after_delayed_reenumeration) ... 等待接口已就绪：现在插入已关机的 P011，不按其他键。\r\n已发送模式切换，正在等待同一设备重新枚举下载接口（最多30秒）。\r\n已进入内置下载模式，开始核对分区。\r\nok\r\n\r\n----------------------------------------------------------------------\r\nRan 9 tests in 0.034s\r\n\r\nOK\r\n"
+}

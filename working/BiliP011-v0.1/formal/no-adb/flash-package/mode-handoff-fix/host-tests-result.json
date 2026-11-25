@@ -1,0 +1,8 @@
+{
+  "scope": "HOST_MOCKED_NO_DEVICE",
+  "tests": 30,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "engine_sha256": "40e487ab39388bf671237312b55c4d0598416f6823e6ced6f997386fae2c0b82"
+}

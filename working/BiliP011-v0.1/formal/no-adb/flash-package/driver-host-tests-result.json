@@ -1,0 +1,11 @@
+{
+  "scope": "HOST_ONLY_NO_UAC_NO_INSTALL_NO_USB",
+  "test_count": 10,
+  "passed": 10,
+  "record_kind": "derived_from_tool_result_not_an_independent_raw_stream",
+  "tool_chunk": "e0a679",
+  "host_exit": 0,
+  "unittest_elapsed_seconds": 0.025,
+  "source_at_test": "driver-integration/test_driver.py",
+  "note": "Initial 10 tests passed before OEM-name compatibility fix; final native readonly check covers that fix."
+}

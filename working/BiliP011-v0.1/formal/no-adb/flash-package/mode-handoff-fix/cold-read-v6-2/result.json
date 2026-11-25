@@ -1,0 +1,38 @@
+{
+  "status": "COLD_AUTOD_GPT_UBOOT_READ_VERIFIED",
+  "scope": "BUILTIN_AUTOD_THEN_GPT_UBOOT_READ_ONLY",
+  "system_write_tested": false,
+  "physical_acceptance": false,
+  "source_sha256": "40e487ab39388bf671237312b55c4d0598416f6823e6ced6f997386fae2c0b82",
+  "gpt_sha256": "9dde510dd5fd7b1a46237dd193ec36f17eada679bd7cfa19dc39664506bcee1e",
+  "uboot_sha256": "3d8bfddf254aad299fe5b7d4f7f73cb0e94736c5e5c2f1e7407cba5688db11d0",
+  "transport": {
+    "mode_attempts": 1,
+    "sync_attempts": 1,
+    "open_attempts": 2,
+    "port_open_retries": 0,
+    "cleanup_uncertain": false,
+    "adb_invoked": false,
+    "external_loader_uploaded": false,
+    "write_started": false,
+    "write_bytes_acked": 0,
+    "write_end_ack": false,
+    "host_handle_closed": true,
+    "protocol_retry": false,
+    "phase": "STORAGE_READY",
+    "initial_last_node": {
+      "pid": "4D00",
+      "port": "COM14",
+      "devinst": 316,
+      "started": true,
+      "problem": 0,
+      "id_sha256": "b041c6b5d07754b824289e967b82bbad9d9f4b00bdfd917ca9d60055c3500703"
+    },
+    "target_id_hash": "b041c6b5d07754b824289e967b82bbad9d9f4b00bdfd917ca9d60055c3500703",
+    "port": "COM14",
+    "mode_old_handle_lost": true,
+    "mode_passive_rx_bytes": 0,
+    "mode_pnp_transition_observed": true,
+    "fdl2_ready": true
+  }
+}

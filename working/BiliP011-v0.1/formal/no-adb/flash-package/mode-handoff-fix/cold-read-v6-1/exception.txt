@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\project\P011\working\BiliP011-v0.1\formal\no-adb\flash-package\mode-handoff-fix\probe_cold.py", line 36, in main
+    session.connect(wait_seconds=180)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\project\P011\working\BiliP011-v0.1\formal\no-adb\flash-package\mode-handoff-fix\engine.py", line 430, in connect
+    first = self.wait_initial_ready(wait_seconds)
+  File "D:\project\P011\working\BiliP011-v0.1\formal\no-adb\flash-package\mode-handoff-fix\engine.py", line 375, in wait_initial_ready
+    require(win.inventory() == [], '请先正常关机并拔下 USB，再重新打开本程序。')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\P011\working\BiliP011-v0.1\formal\no-adb\flash-package\mode-handoff-fix\engine.py", line 24, in require
+    raise RuntimeError(message)
+RuntimeError: 请先正常关机并拔下 USB，再重新打开本程序。

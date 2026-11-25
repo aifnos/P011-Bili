@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-14T23:36:03.290631+08:00",
+  "source": "user_reply_in_current_conversation",
+  "user_statement": "两种视频画面和声音都正常",
+  "ordinary_video_picture_and_sound": true,
+  "story_picture_and_sound": true,
+  "scope": "Current installed worker patch; not a fresh run of the full ADB v7 installer",
+  "revision": "37f83198620ab7b7953e45207306e5505b8eee604bf2acd83df020369c1b4844"
+}
